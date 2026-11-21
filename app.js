@@ -14,7 +14,7 @@ import review from "./models/review.js";
 import bookRoutes from "./routes/book.js";
 import authRoutes from "./routes/auth.js";
 import reviewRoutes from "./routes/review.js";
-import generalRoutes from "./routes/general.js";
+import generalRoutes from "./final_project/router/general.js";
 
 // middleware
 import notFoundHandler from "./middleware/not-found.js";

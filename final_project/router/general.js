@@ -1,8 +1,8 @@
 import { Router } from "express";
 import axios from "axios";
-import * as authControllers from "../controllers/auth.js";
-import * as bookControllers from "../controllers/book.js";
-import * as reviewControllers from "../controllers/review.js";
+import * as authControllers from "../../controllers/auth.js";
+import * as bookControllers from "../../controllers/book.js";
+import * as reviewControllers from "../../controllers/review.js";
 
 const router = Router();
 const BASE_URL = process.env.PUBLIC_API_URL

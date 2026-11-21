@@ -67,6 +67,9 @@ A RESTful back-end API for managing books and user reviews. Built as the final p
 │   ├── auth.js
 │   ├── book.js
 │   └── review.js
+├── final_project/
+│   └── router/
+│       └── general.js          # Public routes and Axios helper functions
 │
 ├── middleware/
 │   ├── authenticate.js         # JWT verification middleware
