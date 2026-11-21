@@ -1,0 +1,3 @@
+﻿curl.exe -X POST http://localhost:5000/api/v1/books/byISBN -H "Content-Type: application/json" -d '{"ISBN":"978-0-13-468599-1"}'
+
+{"message":"Books are Found!!","foundBooks":[{"id":1,"ISBN":"978-0-13-468599-1","title":"Clean Code","author":"Robert C. Martin","createdAt":"2026-11-21T06:04:39.385Z","updatedAt":"2026-11-21T06:04:39.385Z"}]}
